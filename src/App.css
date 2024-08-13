@@ -25,6 +25,7 @@ body{
   display: flex;
   align-items: center;
   height: 50px;
+  padding-left: 30px;
 }
 
 .header img{
@@ -32,9 +33,22 @@ body{
   border-radius: 5%;
 }
 
+.header1 ul img{
+  width: 50%;
+  border-radius: 5%;
+  align-self: self-end;
+  
+}
 
 .lista{
   display: flex;
+}
+
+.lista span{
+  display: flex;
+  justify-content: end;
+  align-self: center;
+  
 }
 
 .lista li{
@@ -64,3 +78,10 @@ body{
     width: 30px;
   }
 }
+
+@media (max-width:1500px){
+  .men img{
+    max-width:1000px;
+    width: 100%;
+  }
+} 
