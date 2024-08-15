@@ -7,7 +7,7 @@ const Men = () => {
     return (
       <div className='wraper'>
         <section className='men'>
-          <h1>Esto es men</h1>
+          <h1>Novedades</h1>
           <span><img src={Men1} alt="Novedades" /></span>
           <span><img src={Men2} alt="Camiseta" /></span>
           <span><img src={Men3} alt="Promocion" /></span>

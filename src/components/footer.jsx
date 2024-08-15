@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header className='header'>
         <section>
-       <h1>Soy footer</h1>
+       <h3>Creado por:</h3>
+       <p>Mylene</p>
+       <p>Yrvin</p>
         </section>
      
     </header>
