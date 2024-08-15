@@ -1,6 +1,6 @@
-import Router from './routers/routers'
-import Header from './components/header'
-import Footer from './components/footer'
+import Routers from './routers/routers'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 
@@ -10,7 +10,7 @@ function App() {
     
     <BrowserRouter>
      <Header/>
-     <Router/>
+     <Routers/>
      <Footer/>
     </BrowserRouter>
   )

@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 
 
-const Header = () => {
+const Footer = () => {
   return (
-    <header className='header'>
+    <footer className='footer'>
         <section>
        <h1>Soy footer</h1>
         </section>
      
-    </header>
+    </footer>
   )
 }
 
-export default Header
+export default Footer

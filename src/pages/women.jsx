@@ -1,13 +1,15 @@
-import React from "react";
+import { useState } from "react";
+import { ProductList } from "../components/ProductList";
 
-const Women = () => {
+function Women() {
+
     return (
-      <div className='wraper'>
-        <section className='women'>
-          <h1>Esto es women</h1>
-        </section>
-      </div>
+        <div className='Women'>
+            <h1 className='title'>Women</h1>
+
+            <ProductList />
+        </div>
     )
-  }
-  
-  export default Women
+}
+
+export default Women
