@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <footer className='footer'>
         <section>
-       <h1>Soy footer</h1>
+       <h3>Creado por:</h3>
+       <p>Mylene</p>
+       <p>Yrvin</p>
         </section>
      
     </footer>
